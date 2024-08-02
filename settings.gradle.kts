@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "StockTracker"
 include(":app")
- 
+include(":designsystem")

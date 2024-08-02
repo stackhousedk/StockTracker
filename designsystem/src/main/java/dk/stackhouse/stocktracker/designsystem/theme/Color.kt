@@ -1,4 +1,4 @@
-package dk.stackhouse.stocktracker.ui.theme
+package dk.stackhouse.stocktracker.designsystem.theme
 
 import androidx.compose.ui.graphics.Color
 
