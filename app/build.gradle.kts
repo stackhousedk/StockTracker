@@ -61,6 +61,15 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
 
+    // Koin
+    implementation(platform(libs.koin.bom))
+    implementation(libs.koin.core)
+    implementation(libs.koin.android)
+    implementation(libs.koin.compose)
+    implementation(libs.koin.annorations)
+    ksp(libs.koin.compiler)
+
+    // Modules
     implementation(project(":designsystem"))
 
     // Testing
